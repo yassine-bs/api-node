@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
+    "mongodb": "^3.6.5",
     "mongoose": "^5.12.2"
   },
   "devDependencies": {
@@ -12,7 +13,8 @@
     "nodemon": "^2.0.7"
   },
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "devStartInfo": "nodemon server-info.js"
   },
   "author": "",
   "license": "ISC"
